@@ -13,11 +13,12 @@
     justify-content: center;
     align-items: center;
 }
-
 .calculator1{
     background:linear-gradient(#e66465,#9198e5);
     padding: 15px;
     border-radius: 30px;
+   /* box-shadow: inset 5px 5px 12px #ffffff, 
+                      5px 5px 12px rgba(0,0,0,.16) ;*/
      display: grid;
      grid-template-columns: repeat(4,68px);
 }
@@ -25,7 +26,9 @@ input{
     grid-column: span 4;
     height: 70px;
     width:260px;
-    background-color:azure;
+    background-color: azure;
+    /*box-shadow: inset -5px -5px 12px #ffffff,
+                inset  5px 5px 12px   rgba(221, 61, 61, 0.16);*/
     border:none;
     border-radius:30px;
     color:rgb(22, 23, 20);
@@ -39,8 +42,8 @@ input{
 button{
     height: 48px;
     width: 48px;
-     background-color: #2571a4;
-    box-shadow: -5px -5px 12px #ffffff,
+    background-color: #2571a4;
+    box-shadow: -5px -5px 12px #0f0101,
                  5px 5px  12px  rgba(0,0,0,.16);
                  border: none;
                  border-radius: 50%;
