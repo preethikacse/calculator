@@ -50,5 +50,7 @@ button{
 .equal{
     width: 115px;
     border-radius: 40px;
-    background-color:#2571a4;
+    background-color: #2571a4;
+    /*box-shadow: inset -5px -5px 12px #ffffff,
+                       5px  5px 12px rgb(0,0,0,.16);*/
 }
